@@ -10,8 +10,10 @@ docker run --name akka-cassandra -v C:\Users\Administrateur\Desktop\UserCaseEned
 
 This repository contains two different code: 
 
+writing_data_to_cassandra.py for writing data into the cassandra cluster. 
+
+read_data_from_cassandra.py for reading data from the cassandra cluster.
+
+
 Keyspace is equivalent to the database name.
 Each keyspace can contain x tables or column family. Table metadata needs to be defined before entering data into the table.
-
-writing_data_to_cassandra.py for writing data into the cassandra cluster. 
-read_data_from_cassandra.py for reading data from the cassandra cluster.
